@@ -1,0 +1,88 @@
+{% extends 'layout.html' %}
+
+
+
+
+{% block body %}
+<main class="container">
+  <div class="bg-light p-5 rounded mt-5">
+    <h1>Online AI Content Generator with OpenAI API</h1>
+    <p class="lead">It is a web application created in Flask that can be used to generate random content using OpenAI API.</p>
+    <p class="lead">You can use this content generator to create product description, generate cold email, social media tweet, and video description.</p>
+  </div>
+
+
+  <div class="p-5 rounded mt-1">
+    <div class="row">
+
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-header">
+            Product Description
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Generate Product Description️</h5>
+            <p class="card-text">Generate product description for any types of products, simply enter the product name and short description if you want to get recommendations.</p>
+            <a href="/product-description" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-header">
+            Cold Email
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cold Email</h5>
+            <p class="card-text">This is perfect for marketing agents or companies who need fresh ideas daily on cold email content. Simply enter the services your company provides to get the email content.</p>
+            <a href="/cold-emails" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-header">
+            Social Media
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Social Media Tweet</h5>
+            <p class="card-text">Looking for some creative social media tweets and hashtags for your online campaigns on Facebook, Twitter or Instagram? Simply enter the subject or title for social media tweet.</p>
+            <a href="/social-media" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card">
+          <div class="card-header">
+            Video Description
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Youtube Video Description</h5>
+            <p class="card-text">This AI tool will help you draft some cool video descriptions based on a topic or video idea your provided. Just enter the video topic or title for the AI to generate a description.</p>
+            <a href="/video-description" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+    </div>
+  </div>
+</main>
+{% endblock %}
